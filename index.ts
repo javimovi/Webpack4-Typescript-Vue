@@ -1,7 +1,9 @@
-// index.ts
+import Vue from "vue";
+import App from "./App.vue";
 
-function getName(name: String) {
-    return name;
-}
-
-console.log(getName('krunal'));
+let v = new Vue({
+    el: "#app",
+    template: `<div class="javi"><app/></div>`,
+    data: { name: "World" },
+    components: { App }
+});
