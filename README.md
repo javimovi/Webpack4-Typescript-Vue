@@ -33,11 +33,11 @@ If you do not have these webpack utilities installed, proceed to install them:
 ```bash
 npm install webpack-cli
 npm install webpack-dev-server
-npm install
 ```
 
 ## Usage
 
 ```bash
+npm install
 npm start
 ```
